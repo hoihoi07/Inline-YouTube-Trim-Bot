@@ -37,7 +37,7 @@ async def start(bot, message):
         return
     
     await message.reply(
-        f"**Hey {message.from_user.mention},\nIam an Inline Youtube Trimmer.**\n__You can use me only via inline mode.__\n\nExample: `@TrimYtbot Niram | 1:25:1 1:26:6` or `@TrimYtbot Niram | 1800 2000`",
+        f"**Hey {message.from_user.mention},\nIam an Inline Youtube Trimmer.**\n__You can use me only via inline mode.__\n\nExample: `@YoutubeTrim_bot Niram | 1:25:1 1:26:6` or `@YoutubeTrim_bot Niram | 1800 2000`",
         reply_markup=InlineKeyboardMarkup(buttons)
     )
 
